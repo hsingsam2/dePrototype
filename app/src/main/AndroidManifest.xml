@@ -16,15 +16,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".bluetoothActivity"></activity>
-        <activity android:name=".loginPage" />
-        <activity android:name=".MainActivity">
+        <!--<activity android:name=".loginPage"></activity> -->
+        <activity android:name=".loginPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>/>
+            </intent-filter>
         </activity>
-        <activity android:name=".Activity2" />
+        <activity android:name=".Activity2"></activity>
     </application>
 
 </manifest>
