@@ -6,6 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <View
+        android:id="@+id/top_Rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        android:layout_alignParentTop="true"
+        android:background="#2BCFB7"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/bot_Rectangle"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <View
+        android:id="@+id/bot_Rectangle"
+        android:layout_width="453dp"
+        android:layout_height="446dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#7B74E1"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="154dp"
@@ -16,11 +39,13 @@
         android:layout_marginTop="48dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:background="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.376" />
+        app:layout_constraintVertical_bias="0.18" />
 
     <Spinner
         android:id="@+id/spinner1"
@@ -31,6 +56,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="8dp"
+        android:background="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -43,6 +69,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:text="How many times per day?"
+        android:textColor="#fff"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,15 +77,15 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="277dp"
+        android:layout_width="300dp"
         android:layout_height="105dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="180dp"
         android:layout_marginEnd="8dp"
         android:text="What is the time interval between each prescription?"
+        android:textColor="#fff"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner1" />
 
@@ -66,8 +93,9 @@
         android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#2BCFB7"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
