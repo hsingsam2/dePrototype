@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accessibility">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Color Filter"
+        android:textColor="#7B74E1"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:text="VoiceOver"
+        android:textColor="#7B74E1"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="147dp"
+        android:layout_height="40dp"
+        android:text="Accessibility "
+        android:textColor="#2BCFB7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="85dp"
+        android:layout_height="32dp"
+        android:text="Text Size"
+        android:textColor="#7B74E1"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/SwitchTheme"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/SwitchTheme"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="245dp" />
+</android.support.constraint.ConstraintLayout>
